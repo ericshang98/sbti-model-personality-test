@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.key
+*secret*
+
+# Local experiment outputs (keep the committed final run, ignore future overwrites
+# under a scratch/ subfolder if you create one)
+scratch/
