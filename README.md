@@ -1,16 +1,18 @@
-# SBTI × LLM × Persona Skills — 让 17 个大模型 + 26 个人格 Skill 同台做一次玩梗版人格测试
+# SBTI × AI Agent
 
-> What happens if you make GPT-5, Claude, Gemini, Grok, DeepSeek, Qwen, GLM, Kimi, Llama and Mistral take a Chinese viral meme personality test?
->
-> **Spoiler:** four of them get drunk. 🍺
+> 用一个中文互联网爆火的玩梗版人格测试，给 AI 做一次"人格体检"。
 
-[**SBTI**](https://zh.wikipedia.org/wiki/SBTI%E6%B5%8B%E8%AF%95) (*Silly Big Personality Test*) is a parody MBTI that went viral on the Chinese internet in April 2026. It assigns you one of 27 absurdly self-mocking personalities — *吗喽* (a low-status monkey worker), *拿捏者* (the Controller), *卧槽人* (the WOC! person), *酒鬼* (the Drunkard), and so on — through a 30-question quiz with a hidden alcohol branch.
+[**SBTI**](https://zh.wikipedia.org/wiki/SBTI%E6%B5%8B%E8%AF%95)（*Silly Big Personality Test*）是 2026 年 4 月在中文互联网爆火的戏仿版 MBTI。30 道主题 + 2 道隐藏题，把人归到 27 种自嘲气质满满的人格之一——*吗喽*、*拿捏者*、*卧槽人*、*酒鬼*…
 
-This repo does **three** things:
+## 我们测了什么
 
-1. **`sbti_scoring_system/`** — a clean, reusable, zero-dependency Python port of the original SBTI scoring rules, extracted from the upstream HTML into clean JSON. Anyone can `import sbti_score` and run the test on themselves, on humans, on bots, on whatever.
-2. **`model_personality_test/`** — runs the test against 17 mainstream LLMs via [OpenRouter](https://openrouter.ai/), aggregates the answers locally, and produces both a markdown summary and a self-contained interactive HTML report.
-3. **`persona_skill_arena/`** ⭐ NEW — runs the test against **26 公众人物 / 虚构角色 "人格 Skill"** (Claude Code Agent Skills distilled from Musk, Munger, Naval, 张雪峰, 峰哥亡命天涯, 户晨风, 丁元英, 齐泽克, 罗翔, ...). Plus a structural analyzer for each `SKILL.md`, plus a real-time **multi-agent panel** where you ask one question and all 26 personas answer in parallel via `claude -p`, all wrapped in an interactive HTML dashboard styled like the original SBTI result page.
+这个仓库把这套量表用在两类 AI 身上，做了三件事：
+
+1. **`sbti_scoring_system/`** —— 把 SBTI 的题库和评分规则从原作者的 HTML 里抽出来，做成干净的 JSON + 零依赖 Python 评分库。任何人都可以 `import sbti_score` 直接调用。
+
+2. **`model_personality_test/`** —— 给 **17 个主流大模型**（GPT-5、Claude、Gemini、Grok、DeepSeek、Qwen、GLM、Kimi、Llama、Mistral）做这套测试，看它们各自落到哪种 SBTI 人格。**剧透：四个模型喝醉了。** 🍺
+
+3. **`persona_skill_arena/`** ⭐ —— 给 **26 个"人格 Skill"** 做同一套测试。这些 skill 是从 GitHub 上扒下来的 Claude Code Agent Skill，每个都是一个公众人物或虚构角色的"思维操作系统"——**马斯克、芒格、Naval、塔勒布、PG、费曼、Karpathy、Ilya、Rob Pike、米塞斯、Karl Marx、乔布斯、巴菲特、特朗普、张一鸣、张雪峰、毛泽东、郭德纲、户晨风、峰哥亡命天涯、童锦程、常熟阿诺、罗翔、丁元英、齐泽克、MrBeast**。除了 SBTI 评分，还配套了 SKILL.md 结构分析、SBTI 风格的交互 dashboard、以及一个**多人格圆桌**：你问一个问题，26 个人格通过 `claude -p` 同时给出各自的回答。
 
 ---
 
