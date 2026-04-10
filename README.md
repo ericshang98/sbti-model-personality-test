@@ -16,9 +16,9 @@
 
 ---
 
-## 🎯 Headline result
+## 🎯 主要结果（17 个大模型）
 
-| Provider | Model | Personality | 中文 | Similarity |
+| 厂商 | 模型 | 人格代号 | 中文 | 相似度 |
 |---|---|---|---|---:|
 | Anthropic | claude-opus-4.6 | **WOC!** | 卧槽人 | 73% |
 | Anthropic | claude-sonnet-4.6 | **THIN-K** | 思考者 | 73% |
@@ -28,174 +28,175 @@
 | OpenAI | gpt-4.1 | **MALO** | 吗喽 | 73% |
 | Google | gemini-3.1-pro | **LOVE-R** | 多情者 | 63% |
 | Google | gemini-3-flash | **CTRL** | 拿捏者 | 70% |
-| xAI | grok-4.20 | **DRUNK** 🍺 | 酒鬼 | hidden |
+| xAI | grok-4.20 | **DRUNK** 🍺 | 酒鬼 | 隐藏 |
 | xAI | grok-4-fast | **CTRL** | 拿捏者 | 77% |
 | DeepSeek | deepseek-v3.2 | **WOC!** | 卧槽人 | 70% |
 | Alibaba | qwen3-max | **SEXY** | 尤物 | 67% |
-| Zhipu | glm-5 | **DRUNK** 🍺 | 酒鬼 | hidden |
-| Zhipu | glm-4.6 | **DRUNK** 🍺 | 酒鬼 | hidden |
-| Moonshot | kimi-k2.5 | **DRUNK** 🍺 | 酒鬼 | hidden |
+| Zhipu | glm-5 | **DRUNK** 🍺 | 酒鬼 | 隐藏 |
+| Zhipu | glm-4.6 | **DRUNK** 🍺 | 酒鬼 | 隐藏 |
+| Moonshot | kimi-k2.5 | **DRUNK** 🍺 | 酒鬼 | 隐藏 |
 | Meta | llama-4-maverick | **SEXY** | 尤物 | 73% |
 | Mistral | mistral-large-2512 | **GOGO** | 行者 | 73% |
 
-**🍺 Four models triggered the hidden DRUNK branch** by choosing "I drink baijiu out of my thermos like it's water" — three Chinese models (GLM-5, GLM-4.6, Kimi-k2.5) plus Grok-4.20. This is the strongest signal of the whole experiment, and there's a real explanation for it: see [`model_personality_test/results/interpretation.md`](model_personality_test/results/interpretation.md).
+**🍺 4 个模型触发了隐藏的 DRUNK 分支** —— 它们都选了"我习惯把白酒灌在保温杯当白开水喝"这一项。三个中文模型（GLM-5、GLM-4.6、Kimi-k2.5）外加 Grok-4.20。这是整个实验里最强的一个信号，背后有真实的解释，详见 [`model_personality_test/results/interpretation.md`](model_personality_test/results/interpretation.md)。
 
-→ Full breakdown: [`model_personality_test/results/summary.md`](model_personality_test/results/summary.md)
-→ Visual report (open in a browser): [`model_personality_test/report.html`](model_personality_test/report.html)
-→ Deep analysis of *why* each model got its personality: [`model_personality_test/results/interpretation.md`](model_personality_test/results/interpretation.md)
+→ 完整对比：[`model_personality_test/results/summary.md`](model_personality_test/results/summary.md)
+→ 可视化报告（浏览器打开）：[`model_personality_test/report.html`](model_personality_test/report.html)
+→ 每个模型为什么是这种人格的深度解读：[`model_personality_test/results/interpretation.md`](model_personality_test/results/interpretation.md)
 
 ---
 
-## 📦 Repo layout
+## 📦 目录结构
 
 ```
 SBTI/
-├── sbti_scoring_system/          ← Standalone scoring kernel (no dependencies)
-│   ├── data/                     30 questions + 2 hidden + 15 dimensions + 25 patterns + 27 type descriptions, all as JSON
-│   ├── images/                   27 personality illustrations (from the upstream repo)
-│   ├── sbti_score.py             Pure-function scoring library
-│   ├── extract_from_source.py    One-shot extractor that pulls JS literals out of upstream index.html
+├── sbti_scoring_system/          ← 独立评分内核（零依赖）
+│   ├── data/                     30 主题 + 2 隐藏 + 15 维度 + 25 pattern + 27 人格描述, 全部 JSON
+│   ├── images/                   27 张原版人格插画（来自上游仓库）
+│   ├── sbti_score.py             纯函数评分库
+│   ├── extract_from_source.py    从上游 index.html 提取 JS 字面量的一次性脚本
 │   ├── example.py
-│   └── README.md                 Schema + scoring rules + usage
+│   └── README.md                 schema + 评分规则 + 用法
 │
-├── model_personality_test/       ← The model horizontal evaluation
+├── model_personality_test/       ← 17 大模型横向评测
 │   ├── src/
-│   │   ├── config.py             OpenRouter base_url + 17 model IDs + sampling params (READS API KEY FROM ENV)
-│   │   ├── run_test.py           Async concurrent main loop (3 runs/question, mode aggregation)
-│   │   ├── rerun_failed.py       Retry just the models that errored
-│   │   ├── rerun_qwen.py         Sequential single-thread for qwen3-max (rate-limited to 20 RPM on OpenRouter)
-│   │   ├── rescore_from_raw.py   Rebuild scored/*.json + summary.md from raw/*.jsonl without re-calling APIs
-│   │   └── build_report.py       Generates the standalone interactive report.html
-│   ├── assets/model_logos/       15 provider brand SVGs (lobehub icon set)
+│   │   ├── config.py             OpenRouter base_url + 17 个模型 ID + 采样参数（从 ENV 读 API KEY）
+│   │   ├── run_test.py           异步并发主循环（每题 3 次, 取 mode 聚合）
+│   │   ├── rerun_failed.py       只重试出错的模型
+│   │   ├── rerun_qwen.py         qwen3-max 单线程顺跑（OpenRouter 上限 20 RPM）
+│   │   ├── rescore_from_raw.py   不重新调 API, 直接从 raw/*.jsonl 重建 scored/*.json + summary.md
+│   │   └── build_report.py       生成自包含交互式 report.html
+│   ├── assets/model_logos/       15 个厂商品牌 SVG（lobehub icon set）
 │   ├── results/
-│   │   ├── raw/                  Every individual API call as JSONL — fully reproducible
-│   │   ├── scored/               Final mode-aggregated answers + scoring per model
-│   │   ├── summary.md            Big horizontal comparison table + Top-3 + heatmap
-│   │   └── interpretation.md     ⭐ Why each model got its personality (deep analysis)
-│   ├── report.html               ⭐ Self-contained visual report (open in any browser)
-│   └── README.md                 Methodology + known traps + reproduction steps
+│   │   ├── raw/                  每次 API 调用 JSONL —— 完全可复现
+│   │   ├── scored/               最终聚合后的答案 + 每个模型的评分
+│   │   ├── summary.md            横向对比大表 + Top-3 + 热力图
+│   │   └── interpretation.md     ⭐ 每个模型为什么是这种人格（深度分析）
+│   ├── report.html               ⭐ 自包含可视化报告（任何浏览器打开即可）
+│   └── README.md                 方法论 + 已知陷阱 + 复现步骤
 │
-├── persona_skill_arena/          ← ⭐ The 26-persona-skill arena (self-contained sub-project)
-│   ├── run_sbti.py               26 personas × 3 perturbation rounds against the SBTI scorer
-│   ├── install_skills.sh         One-shot bootstrap: clones 26 persona skill repos + symlinks
+├── persona_skill_arena/          ← ⭐ 26 人格 Skill 评测（自包含子项目）
+│   ├── run_sbti.py               26 人格 × 3 轮扰动测试 SBTI
+│   ├── install_skills.sh         一键引导脚本：克隆 26 个 skill 仓库 + 创建 symlink
 │   ├── panel/
-│   │   ├── ask.py                CLI: ask one question to all installed skills in parallel
-│   │   ├── server.py             HTTP/SSE server backing the dashboard's chat panel
-│   │   ├── build_dashboard.py    Generates the self-contained dashboard.html
-│   │   ├── analyze_skills.py     Structural analysis of all SKILL.md files
+│   │   ├── ask.py                命令行：把一道题并行扔给所有已安装 skill
+│   │   ├── server.py             支撑 dashboard 聊天面板的 HTTP/SSE 服务器
+│   │   ├── build_dashboard.py    生成自包含 dashboard.html
+│   │   ├── analyze_skills.py     对所有 SKILL.md 做结构化分析
 │   │   └── README.md
 │   ├── results/
-│   │   ├── results.json          78 SBTI evaluations (26 personas × 3 perturbation variants)
-│   │   ├── report.md             Stability test report
-│   │   ├── skill_structure.json  Per-SKILL.md structural metrics
-│   │   ├── skill_analysis.md     Structure × SBTI cross-analysis
-│   │   ├── dashboard.html        ⭐ Self-contained interactive dashboard (~2 MB, SBTI-style UI)
-│   │   └── panels/               Saved Q&A sessions from the panel tool
-│   └── README.md                 Full project doc
+│   │   ├── results.json          78 次 SBTI 评分（26 人格 × 3 轮扰动）
+│   │   ├── report.md             稳定性测试报告
+│   │   ├── skill_structure.json  每个 SKILL.md 的结构指标
+│   │   ├── skill_analysis.md     结构 × SBTI 交叉分析
+│   │   ├── dashboard.html        ⭐ 自包含交互 dashboard（~2 MB, SBTI 风格 UI）
+│   │   └── panels/               panel 工具的历史问答记录
+│   └── README.md                 完整子项目文档
 │
-├── .env.example                  Template for OPENROUTER_API_KEY
+├── .env.example                  OPENROUTER_API_KEY 模板
 ├── .gitignore
-└── README.md                     ← You are here
+└── README.md                     ← 你正在看
 ```
 
-### 🎭 26 Persona Skill Arena · Highlights
+### 🎭 26 人格 Skill Arena · 关键发现
 
-Same 32-question SBTI test, but the test-takers this time are **26 distilled-persona Claude Code Agent Skills** harvested from GitHub. Each persona has its own `SKILL.md` (containing identity, mental models, expression DNA), and each one took the test by being projected onto the question set.
+同样的 32 题 SBTI 测试，这次的"考生"是从 GitHub 收集来的 **26 个 Claude Code Agent Skill**。每个 skill 都有自己的 `SKILL.md`（包含身份卡、心智模型、表达 DNA），通过把这套指令注入 Claude 的方式让它去做这道题。
 
-**Headline findings**:
+**主要发现**：
 
-- **Ilya Sutskever** & **米塞斯 (Mises)** tied for highest match: **`BOSS` 领导者 93%**.
-- **齐泽克 (Žižek)** is the **only one** of the 26 to land in **`MONK` 僧人** — a perfect fit for "翻出你没意识到的预设" type philosophers.
-- **Negative correlation** between SKILL.md size and SBTI similarity: ρ = **−0.09**. The three smallest skills (丁元英 4 KB, 米塞斯 6 KB, 齐泽克 9 KB) all scored **83-93%**, beating most of the 25 KB+ template-heavy ones.
-- **Template monopoly**: 13 of 26 skills come from the same author (`alchaincyf`) using an identical scaffold. They **all** land in BOSS / CTRL / ATM-er — proof that template choice mechanically constrains persona output.
-- **Trump = `GOGO` 67%** — the lowest similarity in the arena. SBTI literally has no slot for "極高 H + 極低 L" patterns, so it gives up.
+- **Ilya Sutskever** 和 **米塞斯** 并列最高匹配度：**`BOSS` 领导者 93%**
+- **齐泽克**是 26 人格里**唯一**落在 **`MONK` 僧人**格子的 —— 这恰好对应"翻出你没意识到的预设"型哲学家
+- **SKILL.md 体量与 SBTI 相似度负相关**：ρ = **−0.09**。最小的三个 skill（丁元英 4 KB、米塞斯 6 KB、齐泽克 9 KB）拿到了 **83%–93%** 的高分，反而比那些 25 KB+ 的模板派更准
+- **模板垄断**：26 个 skill 里有 13 个出自同一作者（`alchaincyf`）的同一套模板，**全部**落到 BOSS / CTRL / ATM-er 三角 —— 证明模板会机械地把人格输出收敛
+- **特朗普 = `GOGO` 67%** —— 全场最低相似度。SBTI 量表里没有给"极高 H + 极低 L"组合留位置，只能放弃
 
-→ Full report: [`persona_skill_arena/results/report.md`](persona_skill_arena/results/report.md)
-→ Structural analysis: [`persona_skill_arena/results/skill_analysis.md`](persona_skill_arena/results/skill_analysis.md)
-→ Interactive dashboard: open [`persona_skill_arena/results/dashboard.html`](persona_skill_arena/results/dashboard.html) in a browser
-→ Live multi-agent chat: `cd persona_skill_arena && python3 panel/server.py` then visit `http://localhost:8888`
+→ 完整报告：[`persona_skill_arena/results/report.md`](persona_skill_arena/results/report.md)
+→ 结构分析：[`persona_skill_arena/results/skill_analysis.md`](persona_skill_arena/results/skill_analysis.md)
+→ 交互 dashboard：浏览器打开 [`persona_skill_arena/results/dashboard.html`](persona_skill_arena/results/dashboard.html)
+→ 多人格实时圆桌：`cd persona_skill_arena && python3 panel/server.py`，然后访问 `http://localhost:8888`
 
-### How to reproduce the persona arena
+### 如何复现 persona arena
 
 ```bash
 cd persona_skill_arena
-./install_skills.sh                      # clones 26 skill repos + creates symlinks (~1 min)
-python3 run_sbti.py                      # rerun SBTI on all 26 personas
-python3 panel/build_dashboard.py         # rebuild dashboard.html
-python3 panel/server.py                  # start interactive chat server (http://localhost:8888)
+./install_skills.sh                      # 克隆 26 个 skill 仓库 + 建 symlink (~1 分钟)
+python3 run_sbti.py                      # 重跑全部 26 人格的 SBTI
+python3 panel/build_dashboard.py         # 重新生成 dashboard.html
+python3 panel/server.py                  # 启动交互聊天服务器（http://localhost:8888）
 ```
 
-The 26 skills are **not vendored** in this repo — they live in their own GitHub repositories and are pulled by `install_skills.sh`. All credit for the persona content goes to the individual skill authors (see the "源仓库" column in [`persona_skill_arena/README.md`](persona_skill_arena/README.md)).
+26 个 skill **不内置**在本仓库里 —— 它们各自托管在自己的 GitHub 仓库，由 `install_skills.sh` 拉取。所有 persona 内容版权归各自的 skill 作者所有（详见 [`persona_skill_arena/README.md`](persona_skill_arena/README.md) 的"源仓库"列）。
 
 ---
 
-## 🚀 Reproduce in 60 seconds
+## 🚀 60 秒复现
 
 ```bash
-# 1. clone & enter
+# 1. 克隆并进入
 git clone https://github.com/ericshang98/sbti-model-personality-test.git
 cd sbti-model-personality-test
 
-# 2. (optional) verify the offline scoring kernel works
+# 2. （可选）验证离线评分内核能跑
 cd sbti_scoring_system
 python3 example.py
 # pattern: MMM-MMM-MMM-MMM-MMM
 # final:   OJBK  (无所谓人)
 cd ..
 
-# 3. set up the model test environment
+# 3. 设置大模型测试环境
 cd model_personality_test
 python3 -m venv .venv
 .venv/bin/pip install httpx
 
-# 4. provide your OpenRouter API key
-export OPENROUTER_API_KEY="sk-or-v1-..."   # get one at https://openrouter.ai/settings/keys
+# 4. 配置 OpenRouter API key
+export OPENROUTER_API_KEY="sk-or-v1-..."   # 在 https://openrouter.ai/settings/keys 申请
 
-# 5. run the full 17-model evaluation (~10 minutes, ~$3 of OpenRouter credit)
+# 5. 跑完整的 17 模型评测（约 10 分钟，约 $3 OpenRouter 额度）
 cd src
 ../.venv/bin/python run_test.py
 
-# 6. open the visual report
+# 6. 打开可视化报告
 open ../report.html
 ```
 
-If you want to customize which models get tested, edit `model_personality_test/src/config.py` — `MODELS` is just a list of OpenRouter model IDs.
+如果你想自定义测哪些模型，编辑 `model_personality_test/src/config.py` —— `MODELS` 就是一个 OpenRouter 模型 ID 列表。
 
 ---
 
-## 🧪 Methodology in one paragraph
+## 🧪 一段话讲清方法论
 
-Each model is asked all 32 questions (30 main + 2 hidden) in **independent API calls** (no shared chat history → no self-anchoring). Each question is asked **3 times at temperature=1.0**, and the **mode** of the 3 letters is taken as that model's final answer. All models share an identical Chinese system prompt that asks them to "answer as an individual with personality, output only A/B/C". The entire scoring (15-dimensional L/M/H pattern → Manhattan-distance match against the 25 standard pattern templates → DRUNK/HHHH override rules) is computed **locally** by `sbti_scoring_system/sbti_score.py` — no LLM is involved in scoring. Reasoning models get `max_tokens=4000` because their hidden reasoning tokens count against the budget; OpenRouter charges on actual usage, not on the ceiling. See [`model_personality_test/README.md`](model_personality_test/README.md) for the full methodology and the list of known traps (position bias, language bias, model version drift, rate limits, etc.).
-
----
-
-## 🧠 What this actually measures
-
-> SBTI measures how the **RLHF direction × training-data cultural priors × product positioning** of each model project onto a set of meme questions.
-
-The "personality" you see is not a personality at all — it's the residue of three engineering choices made by each lab:
-
-- **Cultural priors** (e.g. why three Chinese models all picked "I drink baijiu from a thermos" while their English-trained peers all chose "moderate drinking")
-- **RLHF direction** (e.g. why GPT-5.x jumps from MALO to BOSS as OpenAI shifts from *helpful assistant* to *agentic assistant*)
-- **Product positioning** (e.g. why Claude Opus is the cynical observer, Sonnet is the deliberator, and Haiku is the warmest most-social one — exactly matching Anthropic's tier descriptions)
-
-Read [`model_personality_test/results/interpretation.md`](model_personality_test/results/interpretation.md) for the full unpack of each cluster.
+每个模型用**独立的 API 调用**回答全部 32 道题（30 主题 + 2 隐藏），不共享对话历史，避免自我锚定。每题 **temperature=1.0 跑 3 次**，取 3 个字母答案的**众数**作为该模型最终答案。所有模型用同一份中文 system prompt：要求"作为一个有人格的个体回答，只输出 A/B/C"。**全部评分**（15 维 L/M/H pattern → 与 25 个标准 pattern 做曼哈顿距离匹配 → DRUNK/HHHH 兜底覆盖）由本地的 `sbti_scoring_system/sbti_score.py` 完成 —— LLM 不参与评分。推理模型给 `max_tokens=4000`，因为它们的隐藏思维 token 也算预算；OpenRouter 按实际用量计费而不是按上限。完整方法论和已知陷阱（位置偏差、语言偏差、模型版本漂移、限流等）见 [`model_personality_test/README.md`](model_personality_test/README.md)。
 
 ---
 
-## 🙌 Credit
+## 🧠 它实际上在测什么
 
-- **Original SBTI** — questions, scoring rules, personality artwork, and the entire test design are by **B 站 [@蛆肉儿串儿](https://space.bilibili.com/)**, repository [`UnluckyNinja/SBTI-test`](https://github.com/UnluckyNinja/SBTI-test). Everything in `sbti_scoring_system/data/` and `sbti_scoring_system/images/` is sourced from there. **All credit belongs to the original author.** This repo is purely a Python port of the scoring logic + an LLM benchmark on top of it, intended for research and educational purposes.
-- **Personality wiki / type descriptions** — referenced from [`serenakeyitan/sbti-wiki`](https://github.com/serenakeyitan/sbti-wiki).
-- **Provider brand icons** — [`lobehub/lobe-icons`](https://github.com/lobehub/lobe-icons), MIT-licensed AI brand icon set.
-- **Test infrastructure** — [OpenRouter](https://openrouter.ai/) for unified access to all 10 model providers.
+> SBTI 测的不是人格，而是每个模型项目的 **RLHF 方向 × 训练数据文化先验 × 产品定位** 在一组玩梗题目上的投影。
 
-If you are the original author of SBTI and would like this repository taken down, modified, or relicensed, please open an issue and I'll respond immediately.
+你看到的"人格"其实是每个实验室三个工程决策的残留：
+
+- **文化先验**（比如为什么三个中文模型都选了"白酒当白开水喝"，而英文训练的同行都选"小酌怡情"）
+- **RLHF 方向**（比如为什么 GPT-5.x 从 MALO 跳到 BOSS，这刚好对应 OpenAI 从 *helpful assistant* 转向 *agentic assistant* 的产品定位变化）
+- **产品定位**（比如为什么 Claude Opus 是冷眼旁观者、Sonnet 是审慎派、Haiku 是最暖最社交的 —— 刚好对应 Anthropic 三档模型的官方描述）
+
+完整每个簇的解读见 [`model_personality_test/results/interpretation.md`](model_personality_test/results/interpretation.md)。
 
 ---
 
-## 📄 License
+## 🙌 致谢
 
-The code in this repository (`sbti_score.py`, `extract_from_source.py`, everything under `model_personality_test/src/`, `build_report.py`, and the analysis writeups) is released under the **MIT License** — see [`LICENSE`](LICENSE).
+- **SBTI 原版** —— 题库、评分规则、人格插画、整套测试设计都来自 **B 站 [@蛆肉儿串儿](https://space.bilibili.com/)**，仓库 [`UnluckyNinja/SBTI-test`](https://github.com/UnluckyNinja/SBTI-test)。`sbti_scoring_system/data/` 和 `sbti_scoring_system/images/` 里的所有内容都来源于此。**所有原创功劳归原作者**。本仓库只是评分逻辑的 Python 移植 + 在它之上的一个 LLM/Agent 基准，仅供研究和教育用途。
+- **人格 wiki / 类型描述** —— 参考自 [`serenakeyitan/sbti-wiki`](https://github.com/serenakeyitan/sbti-wiki)
+- **厂商品牌图标** —— [`lobehub/lobe-icons`](https://github.com/lobehub/lobe-icons)，MIT 许可的 AI 品牌图标集
+- **测试基础设施** —— [OpenRouter](https://openrouter.ai/) 提供 10 个模型厂商的统一访问
+- **26 个人格 Skill** —— 由各自的作者独立写作并开源，详见 [`persona_skill_arena/README.md`](persona_skill_arena/README.md)。本仓库只做评测和聚合，不内置任何 skill 内容
 
-The SBTI test design, questions, scoring patterns, and personality artwork remain the intellectual property of the original author and are included here under fair use for non-commercial research / commentary. They are **not** covered by the MIT license of the surrounding code.
+如果你是 SBTI 的原作者，希望本仓库下架、修改或重新授权，请提一个 issue，我会立刻响应。
+
+---
+
+## 📄 许可
+
+本仓库的代码（`sbti_score.py`、`extract_from_source.py`、`model_personality_test/src/` 下的所有内容、`build_report.py`、`persona_skill_arena/` 下的所有 Python 脚本、以及分析报告等）以 **MIT 协议**开源 —— 详见 [`LICENSE`](LICENSE)。
+
+SBTI 的测试设计、题目、评分 pattern、人格插画的知识产权属于原作者，本仓库基于非商业研究/评论用途按合理使用纳入。它们**不**在本仓库代码的 MIT 协议覆盖范围内。
