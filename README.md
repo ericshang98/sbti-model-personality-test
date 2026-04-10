@@ -6,10 +6,11 @@
 
 [**SBTI**](https://zh.wikipedia.org/wiki/SBTI%E6%B5%8B%E8%AF%95) (*Silly Big Personality Test*) is a parody MBTI that went viral on the Chinese internet in April 2026. It assigns you one of 27 absurdly self-mocking personalities — *吗喽* (a low-status monkey worker), *拿捏者* (the Controller), *卧槽人* (the WOC! person), *酒鬼* (the Drunkard), and so on — through a 30-question quiz with a hidden alcohol branch.
 
-This repo does two things:
+This repo does **three** things:
 
 1. **`sbti_scoring_system/`** — a clean, reusable, zero-dependency Python port of the original SBTI scoring rules, extracted from the upstream HTML into clean JSON. Anyone can `import sbti_score` and run the test on themselves, on humans, on bots, on whatever.
 2. **`model_personality_test/`** — runs the test against 17 mainstream LLMs via [OpenRouter](https://openrouter.ai/), aggregates the answers locally, and produces both a markdown summary and a self-contained interactive HTML report.
+3. **`persona_skill_arena/`** ⭐ NEW — runs the test against **26 公众人物 / 虚构角色 "人格 Skill"** (Claude Code Agent Skills distilled from Musk, Munger, Naval, 张雪峰, 峰哥亡命天涯, 户晨风, 丁元英, 齐泽克, 罗翔, ...). Plus a structural analyzer for each `SKILL.md`, plus a real-time **multi-agent panel** where you ask one question and all 26 personas answer in parallel via `claude -p`, all wrapped in an interactive HTML dashboard styled like the original SBTI result page.
 
 ---
 
@@ -72,10 +73,57 @@ SBTI/
 │   ├── report.html               ⭐ Self-contained visual report (open in any browser)
 │   └── README.md                 Methodology + known traps + reproduction steps
 │
+├── persona_skill_arena/          ← ⭐ The 26-persona-skill arena (self-contained sub-project)
+│   ├── run_sbti.py               26 personas × 3 perturbation rounds against the SBTI scorer
+│   ├── install_skills.sh         One-shot bootstrap: clones 26 persona skill repos + symlinks
+│   ├── panel/
+│   │   ├── ask.py                CLI: ask one question to all installed skills in parallel
+│   │   ├── server.py             HTTP/SSE server backing the dashboard's chat panel
+│   │   ├── build_dashboard.py    Generates the self-contained dashboard.html
+│   │   ├── analyze_skills.py     Structural analysis of all SKILL.md files
+│   │   └── README.md
+│   ├── results/
+│   │   ├── results.json          78 SBTI evaluations (26 personas × 3 perturbation variants)
+│   │   ├── report.md             Stability test report
+│   │   ├── skill_structure.json  Per-SKILL.md structural metrics
+│   │   ├── skill_analysis.md     Structure × SBTI cross-analysis
+│   │   ├── dashboard.html        ⭐ Self-contained interactive dashboard (~2 MB, SBTI-style UI)
+│   │   └── panels/               Saved Q&A sessions from the panel tool
+│   └── README.md                 Full project doc
+│
 ├── .env.example                  Template for OPENROUTER_API_KEY
 ├── .gitignore
 └── README.md                     ← You are here
 ```
+
+### 🎭 26 Persona Skill Arena · Highlights
+
+Same 32-question SBTI test, but the test-takers this time are **26 distilled-persona Claude Code Agent Skills** harvested from GitHub. Each persona has its own `SKILL.md` (containing identity, mental models, expression DNA), and each one took the test by being projected onto the question set.
+
+**Headline findings**:
+
+- **Ilya Sutskever** & **米塞斯 (Mises)** tied for highest match: **`BOSS` 领导者 93%**.
+- **齐泽克 (Žižek)** is the **only one** of the 26 to land in **`MONK` 僧人** — a perfect fit for "翻出你没意识到的预设" type philosophers.
+- **Negative correlation** between SKILL.md size and SBTI similarity: ρ = **−0.09**. The three smallest skills (丁元英 4 KB, 米塞斯 6 KB, 齐泽克 9 KB) all scored **83-93%**, beating most of the 25 KB+ template-heavy ones.
+- **Template monopoly**: 13 of 26 skills come from the same author (`alchaincyf`) using an identical scaffold. They **all** land in BOSS / CTRL / ATM-er — proof that template choice mechanically constrains persona output.
+- **Trump = `GOGO` 67%** — the lowest similarity in the arena. SBTI literally has no slot for "極高 H + 極低 L" patterns, so it gives up.
+
+→ Full report: [`persona_skill_arena/results/report.md`](persona_skill_arena/results/report.md)
+→ Structural analysis: [`persona_skill_arena/results/skill_analysis.md`](persona_skill_arena/results/skill_analysis.md)
+→ Interactive dashboard: open [`persona_skill_arena/results/dashboard.html`](persona_skill_arena/results/dashboard.html) in a browser
+→ Live multi-agent chat: `cd persona_skill_arena && python3 panel/server.py` then visit `http://localhost:8888`
+
+### How to reproduce the persona arena
+
+```bash
+cd persona_skill_arena
+./install_skills.sh                      # clones 26 skill repos + creates symlinks (~1 min)
+python3 run_sbti.py                      # rerun SBTI on all 26 personas
+python3 panel/build_dashboard.py         # rebuild dashboard.html
+python3 panel/server.py                  # start interactive chat server (http://localhost:8888)
+```
+
+The 26 skills are **not vendored** in this repo — they live in their own GitHub repositories and are pulled by `install_skills.sh`. All credit for the persona content goes to the individual skill authors (see the "源仓库" column in [`persona_skill_arena/README.md`](persona_skill_arena/README.md)).
 
 ---
 

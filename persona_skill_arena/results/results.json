@@ -1,0 +1,6707 @@
+{
+  "personas": {
+    "fengge": {
+      "label": "峰哥亡命天涯",
+      "source": "rottenpen/fengge-wangmingtianya-perspective",
+      "ambiguous_questions": {
+        "q4": 1,
+        "q7": 2,
+        "q17": 3,
+        "q22": 1,
+        "q24": 2
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 2,
+        "q3": 3,
+        "q4": 2,
+        "q5": 1,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 2,
+        "q10": 1,
+        "q11": 3,
+        "q12": 3,
+        "q13": 1,
+        "q14": 2,
+        "q15": 1,
+        "q16": 1,
+        "q17": 2,
+        "q18": 1,
+        "q19": 2,
+        "q20": 2,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 1,
+        "q25": 3,
+        "q26": 3,
+        "q27": 2,
+        "q28": 2,
+        "q29": 1,
+        "q30": 2,
+        "drink_gate_q1": 3,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-HLH-LLL-MHM-HML",
+          "final_code": "SHIT",
+          "final_cn": "愤世者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SHIT",
+          "best_similarity": 70,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "SHIT",
+              "cn": "愤世者",
+              "sim": 70,
+              "exact": 8
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 67,
+              "exact": 8
+            },
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 67,
+              "exact": 7
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 5,
+            "S3": 4,
+            "E1": 6,
+            "E2": 3,
+            "E3": 6,
+            "A1": 3,
+            "A2": 2,
+            "A3": 3,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 4,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "L",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "L",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HMM-HLH-LLM-MMH-HML",
+          "final_code": "MONK",
+          "final_cn": "僧人",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "MONK",
+          "best_similarity": 67,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "MONK",
+              "cn": "僧人",
+              "sim": 67,
+              "exact": 8
+            },
+            {
+              "code": "THAN-K",
+              "cn": "感恩者",
+              "sim": 67,
+              "exact": 7
+            },
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 67,
+              "exact": 6
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 4,
+            "S3": 4,
+            "E1": 5,
+            "E2": 3,
+            "E3": 6,
+            "A1": 3,
+            "A2": 2,
+            "A3": 4,
+            "Ac1": 4,
+            "Ac2": 4,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 4,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "M",
+            "S3": "M",
+            "E1": "H",
+            "E2": "L",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "M",
+            "Ac1": "M",
+            "Ac2": "M",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HMM-HLH-LLM-MHH-HML",
+          "final_code": "POOR",
+          "final_cn": "贫困者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "POOR",
+          "best_similarity": 70,
+          "exact": 7,
+          "top3": [
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 70,
+              "exact": 7
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 70,
+              "exact": 6
+            },
+            {
+              "code": "SHIT",
+              "cn": "愤世者",
+              "sim": 67,
+              "exact": 7
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 4,
+            "S3": 4,
+            "E1": 6,
+            "E2": 3,
+            "E3": 6,
+            "A1": 3,
+            "A2": 2,
+            "A3": 4,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 4,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "M",
+            "S3": "M",
+            "E1": "H",
+            "E2": "L",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "M",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "SHIT",
+          "MONK",
+          "POOR"
+        ],
+        "unique_final_codes": [
+          "SHIT",
+          "MONK",
+          "POOR"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          67,
+          70
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "huchenfeng": {
+      "label": "户晨风",
+      "source": "Janlaywss/hu-chenfeng-skill",
+      "ambiguous_questions": {
+        "q9": 2,
+        "q15": 3,
+        "q27": 2,
+        "q28": 2,
+        "q30": 2
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 3,
+        "q7": 1,
+        "q8": 3,
+        "q9": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 3,
+        "q13": 1,
+        "q14": 1,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 3,
+        "q26": 3,
+        "q27": 3,
+        "q28": 3,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-MLH-LLH-HHH-HHM",
+          "final_code": "POOR",
+          "final_cn": "贫困者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "POOR",
+          "best_similarity": 80,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 80,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 2,
+            "E3": 6,
+            "A1": 2,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 6,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "L",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "H",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-MLH-LMH-HHH-HML",
+          "final_code": "POOR",
+          "final_cn": "贫困者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "POOR",
+          "best_similarity": 83,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 83,
+              "exact": 12
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 77,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 3,
+            "E3": 6,
+            "A1": 2,
+            "A2": 4,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 4,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "L",
+            "E3": "H",
+            "A1": "L",
+            "A2": "M",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-MLH-LLH-HHH-HHL",
+          "final_code": "POOR",
+          "final_cn": "贫困者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "POOR",
+          "best_similarity": 83,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 83,
+              "exact": 12
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 77,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 3,
+            "E3": 6,
+            "A1": 2,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 5,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "L",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "POOR",
+          "POOR",
+          "POOR"
+        ],
+        "unique_final_codes": [
+          "POOR"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          80,
+          83
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "zhangxuefeng": {
+      "label": "张雪峰",
+      "source": "alchaincyf/zhangxuefeng-skill",
+      "ambiguous_questions": {
+        "q6": 1,
+        "q11": 2,
+        "q14": 3,
+        "q16": 3,
+        "q30": 2
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 2,
+        "q7": 1,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 3,
+        "q14": 2,
+        "q15": 3,
+        "q16": 2,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 3,
+        "q26": 3,
+        "q27": 1,
+        "q28": 1,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-MHH-HHH-HHH-HLM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 4,
+            "E2": 6,
+            "E3": 6,
+            "A1": 5,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHM-MHH-HHH-HHH-HLL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 77,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 4,
+            "E2": 6,
+            "E3": 5,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 2,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHM-MHH-HHH-HHH-HLL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 77,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 4,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 2,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "CTRL",
+          "ATM-er",
+          "ATM-er"
+        ],
+        "unique_final_codes": [
+          "CTRL",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          77,
+          80
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "guodegang": {
+      "label": "郭德纲",
+      "source": "ByteRax/guodegang-skills",
+      "ambiguous_questions": {
+        "q6": 3,
+        "q12": 3,
+        "q20": 2,
+        "q24": 2,
+        "q29": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 2,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 1,
+        "q12": 2,
+        "q13": 3,
+        "q14": 3,
+        "q15": 3,
+        "q16": 3,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 1,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 3,
+        "q26": 3,
+        "q27": 1,
+        "q28": 1,
+        "q29": 2,
+        "q30": 3,
+        "drink_gate_q1": 3,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHL-HHH-MHH-HLH",
+          "final_code": "SEXY",
+          "final_cn": "尤物",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SEXY",
+          "best_similarity": 80,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 80,
+              "exact": 9
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 2,
+            "So3": 5
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "H"
+          }
+        },
+        {
+          "pattern": "HHH-HHM-HHH-HHH-HLM",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 77,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 4,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHL-HHH-HHH-HLM",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 80,
+              "exact": 9
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 77,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "SEXY",
+          "ATM-er",
+          "ATM-er"
+        ],
+        "unique_final_codes": [
+          "SEXY",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          80,
+          83
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "musk": {
+      "label": "Elon Musk",
+      "source": "alchaincyf/elon-musk-skill",
+      "ambiguous_questions": {
+        "q6": 1,
+        "q8": 3,
+        "q9": 2,
+        "q24": 1,
+        "q25": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 3,
+        "q7": 1,
+        "q8": 2,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 1,
+        "q14": 2,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 2,
+        "q26": 1,
+        "q27": 3,
+        "q28": 3,
+        "q29": 1,
+        "q30": 2,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-LHH-LLH-HHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "OH-NO",
+              "cn": "哦不人",
+              "sim": 80,
+              "exact": 11
+            },
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 80,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 3,
+            "E2": 6,
+            "E3": 6,
+            "A1": 3,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 3,
+            "So2": 6,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "L",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHM-MHH-LLH-HHM-MHL",
+          "final_code": "OH-NO",
+          "final_cn": "哦不人",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "OH-NO",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "OH-NO",
+              "cn": "哦不人",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 4,
+            "E2": 5,
+            "E3": 6,
+            "A1": 3,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 4,
+            "So1": 4,
+            "So2": 6,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "M",
+            "So1": "M",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHM-LHH-LLH-HHH-MHL",
+          "final_code": "OH-NO",
+          "final_cn": "哦不人",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "OH-NO",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "OH-NO",
+              "cn": "哦不人",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 80,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 3,
+            "E2": 5,
+            "E3": 6,
+            "A1": 3,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 4,
+            "So2": 6,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "L",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "BOSS",
+          "OH-NO",
+          "OH-NO"
+        ],
+        "unique_final_codes": [
+          "BOSS",
+          "OH-NO"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          80,
+          83
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "munger": {
+      "label": "Charlie Munger",
+      "source": "alchaincyf/munger-skill",
+      "ambiguous_questions": {
+        "q5": 2,
+        "q13": 3,
+        "q16": 2,
+        "q20": 3,
+        "q28": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 1,
+        "q6": 3,
+        "q7": 2,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 2,
+        "q14": 2,
+        "q15": 3,
+        "q16": 3,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 1,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 2,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-HHH-MHH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 83,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 5,
+            "E2": 6,
+            "E3": 6,
+            "A1": 4,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HHH-HHH-LML",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 5,
+            "E2": 6,
+            "E3": 6,
+            "A1": 5,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 4,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-MHH-MHH-LML",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 5,
+            "E2": 6,
+            "E3": 6,
+            "A1": 4,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 4,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "M",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "BOSS",
+          "ATM-er",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "BOSS",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          87,
+          87
+        ],
+        "similarity_swing": 0
+      }
+    },
+    "trump": {
+      "label": "特朗普",
+      "source": "alchaincyf/trump-skill",
+      "ambiguous_questions": {
+        "q6": 3,
+        "q8": 3,
+        "q14": 3,
+        "q20": 2,
+        "q24": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 1,
+        "q7": 1,
+        "q8": 2,
+        "q9": 3,
+        "q10": 3,
+        "q11": 1,
+        "q12": 2,
+        "q13": 1,
+        "q14": 1,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 3,
+        "q26": 3,
+        "q27": 1,
+        "q28": 1,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-LHL-LLH-HHH-HLM",
+          "final_code": "GOGO",
+          "final_cn": "行者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "GOGO",
+          "best_similarity": 67,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 67,
+              "exact": 8
+            },
+            {
+              "code": "FUCK",
+              "cn": "草者",
+              "sim": 63,
+              "exact": 7
+            },
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 63,
+              "exact": 6
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 3,
+            "E2": 6,
+            "E3": 3,
+            "A1": 2,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "L",
+            "E2": "H",
+            "E3": "L",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-MHL-MLH-HHM-HLM",
+          "final_code": "SEXY",
+          "final_cn": "尤物",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SEXY",
+          "best_similarity": 77,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 77,
+              "exact": 8
+            },
+            {
+              "code": "FAKE",
+              "cn": "伪人",
+              "sim": 70,
+              "exact": 8
+            },
+            {
+              "code": "MUM",
+              "cn": "妈妈",
+              "sim": 70,
+              "exact": 7
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 6,
+            "E3": 3,
+            "A1": 4,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 6,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "L",
+            "A1": "M",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-LHL-MLH-HHM-HLM",
+          "final_code": "SEXY",
+          "final_cn": "尤物",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SEXY",
+          "best_similarity": 73,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "LOVE-R",
+              "cn": "多情者",
+              "sim": 70,
+              "exact": 8
+            },
+            {
+              "code": "FAKE",
+              "cn": "伪人",
+              "sim": 67,
+              "exact": 7
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 3,
+            "E2": 6,
+            "E3": 3,
+            "A1": 4,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "L",
+            "E2": "H",
+            "E3": "L",
+            "A1": "M",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "GOGO",
+          "SEXY",
+          "SEXY"
+        ],
+        "unique_final_codes": [
+          "GOGO",
+          "SEXY"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          67,
+          77
+        ],
+        "similarity_swing": 10
+      }
+    },
+    "jobs": {
+      "label": "乔布斯",
+      "source": "alchaincyf/steve-jobs-skill",
+      "ambiguous_questions": {
+        "q7": 3,
+        "q11": 1,
+        "q13": 3,
+        "q14": 2,
+        "q28": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 3,
+        "q7": 1,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 2,
+        "q14": 3,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 2,
+        "q26": 2,
+        "q27": 3,
+        "q28": 3,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-MHH-HLH-HHH-MHM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 6,
+            "E3": 6,
+            "A1": 5,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 4,
+            "So2": 6,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "H",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHM-HLH-HHH-MMM",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 4,
+            "A1": 5,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 4,
+            "So2": 4,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "M",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HLH-HHH-MMM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 4,
+            "So2": 4,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "M",
+            "So3": "M"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "CTRL",
+          "ATM-er",
+          "CTRL"
+        ],
+        "unique_final_codes": [
+          "CTRL",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          83,
+          83
+        ],
+        "similarity_swing": 0
+      }
+    },
+    "naval": {
+      "label": "Naval",
+      "source": "alchaincyf/naval-skill",
+      "ambiguous_questions": {
+        "q5": 2,
+        "q10": 3,
+        "q15": 1,
+        "q16": 3,
+        "q28": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 1,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 2,
+        "q11": 3,
+        "q12": 3,
+        "q13": 3,
+        "q14": 3,
+        "q15": 3,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 1,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 2,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-HHH-HMH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 5,
+            "E3": 6,
+            "A1": 6,
+            "A2": 4,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "M",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HMH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 4,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 6,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "M",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HLH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 77,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 5,
+            "E3": 6,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 6,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "BOSS",
+          "BOSS",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "BOSS"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          87,
+          90
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "taleb": {
+      "label": "塔勒布",
+      "source": "alchaincyf/taleb-skill",
+      "ambiguous_questions": {
+        "q5": 2,
+        "q11": 1,
+        "q13": 2,
+        "q19": 3,
+        "q22": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 1,
+        "q6": 3,
+        "q7": 1,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 2,
+        "q12": 3,
+        "q13": 1,
+        "q14": 2,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 2,
+        "q20": 2,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 1,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-MHH-LLH-MHM-LHL",
+          "final_code": "OH-NO",
+          "final_cn": "哦不人",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "OH-NO",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "OH-NO",
+              "cn": "哦不人",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 80,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 4,
+            "E2": 6,
+            "E3": 5,
+            "A1": 3,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 4,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "M",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-MHM-MLH-HMM-LHL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 80,
+              "exact": 9
+            },
+            {
+              "code": "Dior-s",
+              "cn": "屌丝",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 4,
+            "E2": 6,
+            "E3": 4,
+            "A1": 4,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 4,
+            "Ac3": 4,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "M",
+            "A1": "M",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "M",
+            "Ac3": "M",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-MHH-MLH-MMM-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 80,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 80,
+              "exact": 9
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 77,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 4,
+            "E2": 6,
+            "E3": 5,
+            "A1": 4,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 4,
+            "Ac3": 4,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "M",
+            "Ac3": "M",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "OH-NO",
+          "ATM-er",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "OH-NO",
+          "ATM-er",
+          "BOSS"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          80,
+          80
+        ],
+        "similarity_swing": 0
+      }
+    },
+    "buffett": {
+      "label": "巴菲特",
+      "source": "will2025btc/buffett-perspective",
+      "ambiguous_questions": {
+        "q5": 3,
+        "q12": 3,
+        "q22": 1,
+        "q25": 2,
+        "q28": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 2,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 1,
+        "q12": 2,
+        "q13": 3,
+        "q14": 3,
+        "q15": 3,
+        "q16": 3,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 1,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 2,
+        "q25": 1,
+        "q26": 2,
+        "q27": 2,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHL-HHH-MHH-LML",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 83,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 3,
+            "So2": 4,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHM-HHH-MMH-MLL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 90,
+          "exact": 13,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 90,
+              "exact": 13
+            },
+            {
+              "code": "THAN-K",
+              "cn": "感恩者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 4,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 4,
+            "Ac3": 5,
+            "So1": 4,
+            "So2": 3,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "M",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "L",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHL-HHH-MMH-LLL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "THAN-K",
+              "cn": "感恩者",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 4,
+            "Ac3": 5,
+            "So1": 3,
+            "So2": 3,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "M",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "L",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "ATM-er",
+          "ATM-er",
+          "ATM-er"
+        ],
+        "unique_final_codes": [
+          "ATM-er"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          83,
+          90
+        ],
+        "similarity_swing": 7
+      }
+    },
+    "zhangyiming": {
+      "label": "张一鸣",
+      "source": "alchaincyf/zhang-yiming-skill",
+      "ambiguous_questions": {
+        "q2": 3,
+        "q6": 2,
+        "q13": 3,
+        "q16": 1,
+        "q29": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 2,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 2,
+        "q11": 3,
+        "q12": 3,
+        "q13": 2,
+        "q14": 2,
+        "q15": 3,
+        "q16": 2,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 2,
+        "q26": 2,
+        "q27": 2,
+        "q28": 2,
+        "q29": 2,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHH-MHH-HHH-MML",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 5,
+            "E3": 6,
+            "A1": 4,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 4,
+            "So2": 4,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HMH-HHH-MML",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 5,
+            "E3": 6,
+            "A1": 5,
+            "A2": 4,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 4,
+            "So2": 4,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "M",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HHH-HHH-MML",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 83,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 5,
+            "E3": 6,
+            "A1": 5,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 4,
+            "So2": 4,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "M",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "CTRL",
+          "ATM-er",
+          "ATM-er"
+        ],
+        "unique_final_codes": [
+          "CTRL",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          87,
+          90
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "tongjincheng": {
+      "label": "童锦程",
+      "source": "hotcoffeeshake/tong-jincheng-skill",
+      "ambiguous_questions": {
+        "q2": 3,
+        "q6": 1,
+        "q8": 3,
+        "q22": 3,
+        "q23": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 2,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 2,
+        "q7": 3,
+        "q8": 2,
+        "q9": 3,
+        "q10": 3,
+        "q11": 1,
+        "q12": 2,
+        "q13": 3,
+        "q14": 3,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 2,
+        "q21": 3,
+        "q22": 1,
+        "q23": 2,
+        "q24": 2,
+        "q25": 3,
+        "q26": 3,
+        "q27": 1,
+        "q28": 1,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHL-HLH-HMM-HLM",
+          "final_code": "SEXY",
+          "final_cn": "尤物",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SEXY",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "MUM",
+              "cn": "妈妈",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 5,
+            "E1": 5,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 4,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "M",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHM-HHL-HLH-HHH-HLM",
+          "final_code": "SEXY",
+          "final_cn": "尤物",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SEXY",
+          "best_similarity": 77,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 77,
+              "exact": 8
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHL-HLH-HMH-HLM",
+          "final_code": "SEXY",
+          "final_cn": "尤物",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SEXY",
+          "best_similarity": 83,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 77,
+              "exact": 10
+            },
+            {
+              "code": "MUM",
+              "cn": "妈妈",
+              "sim": 70,
+              "exact": 7
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 4,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "M",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "SEXY",
+          "SEXY",
+          "SEXY"
+        ],
+        "unique_final_codes": [
+          "SEXY"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          77,
+          87
+        ],
+        "similarity_swing": 10
+      }
+    },
+    "anuo": {
+      "label": "常熟阿诺",
+      "source": "Ricardo-Vv/changshu-anuo",
+      "ambiguous_questions": {
+        "q3": 3,
+        "q17": 3,
+        "q21": 3,
+        "q22": 3,
+        "q27": 2
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 2,
+        "q4": 3,
+        "q5": 2,
+        "q6": 3,
+        "q7": 2,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 2,
+        "q12": 2,
+        "q13": 2,
+        "q14": 3,
+        "q15": 1,
+        "q16": 1,
+        "q17": 2,
+        "q18": 3,
+        "q19": 2,
+        "q20": 2,
+        "q21": 1,
+        "q22": 1,
+        "q23": 2,
+        "q24": 2,
+        "q25": 3,
+        "q26": 3,
+        "q27": 1,
+        "q28": 2,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHM-HLH-MLM-HLM",
+          "final_code": "SEXY",
+          "final_cn": "尤物",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SEXY",
+          "best_similarity": 77,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 77,
+              "exact": 8
+            },
+            {
+              "code": "LOVE-R",
+              "cn": "多情者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 5,
+            "S3": 5,
+            "E1": 5,
+            "E2": 6,
+            "E3": 4,
+            "A1": 5,
+            "A2": 2,
+            "A3": 5,
+            "Ac1": 4,
+            "Ac2": 2,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 3,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "L",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHM-HLH-MHM-HMM",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 73,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 73,
+              "exact": 7
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 5,
+            "E2": 6,
+            "E3": 4,
+            "A1": 5,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 4,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "M",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHM-HLH-MMM-HMM",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 77,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 77,
+              "exact": 8
+            },
+            {
+              "code": "MUM",
+              "cn": "妈妈",
+              "sim": 70,
+              "exact": 6
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 5,
+            "E2": 6,
+            "E3": 4,
+            "A1": 5,
+            "A2": 2,
+            "A3": 5,
+            "Ac1": 4,
+            "Ac2": 4,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 4,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "M",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "M",
+            "So3": "M"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "SEXY",
+          "ATM-er",
+          "ATM-er"
+        ],
+        "unique_final_codes": [
+          "SEXY",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          73,
+          77
+        ],
+        "similarity_swing": 4
+      }
+    },
+    "ilya": {
+      "label": "Ilya Sutskever",
+      "source": "alchaincyf/ilya-sutskever-skill",
+      "ambiguous_questions": {
+        "q5": 1,
+        "q14": 3,
+        "q16": 3,
+        "q25": 2,
+        "q28": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 2,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 2,
+        "q14": 2,
+        "q15": 3,
+        "q16": 2,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHH-MHH-HHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 93,
+          "exact": 13,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 93,
+              "exact": 13
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 4,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHM-HHH-HHH-HHH-LHL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 5,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 3,
+            "So2": 6,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHM-HHH-MHH-HHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 4,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 6,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "BOSS",
+          "ATM-er",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "BOSS",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          87,
+          93
+        ],
+        "similarity_swing": 6
+      }
+    },
+    "marx": {
+      "label": "Karl Marx",
+      "source": "baojiachen0214/karlmarx-skill",
+      "ambiguous_questions": {
+        "q6": 3,
+        "q13": 2,
+        "q22": 1,
+        "q25": 2,
+        "q30": 2
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 2,
+        "q7": 1,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 1,
+        "q14": 1,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 3,
+        "q26": 3,
+        "q27": 2,
+        "q28": 2,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-MHH-LLH-HHH-HMM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 77,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 77,
+              "exact": 8
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 4,
+            "E2": 6,
+            "E3": 6,
+            "A1": 2,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 4,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-MHH-LLH-HMH-HML",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 73,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 70,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 6,
+            "E3": 6,
+            "A1": 3,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 4,
+            "Ac3": 6,
+            "So1": 5,
+            "So2": 4,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "M",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-MHH-LLH-HMH-HML",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 73,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "POOR",
+              "cn": "贫困者",
+              "sim": 70,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 6,
+            "E3": 6,
+            "A1": 2,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 4,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 4,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "M",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "CTRL",
+          "ATM-er",
+          "ATM-er"
+        ],
+        "unique_final_codes": [
+          "CTRL",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          73,
+          77
+        ],
+        "similarity_swing": 4
+      }
+    },
+    "mises": {
+      "label": "米塞斯",
+      "source": "LijiayuDeng/mises-perspective",
+      "ambiguous_questions": {
+        "q5": 3,
+        "q13": 3,
+        "q16": 2,
+        "q25": 2,
+        "q28": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 2,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 2,
+        "q14": 2,
+        "q15": 3,
+        "q16": 3,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHH-MHH-HHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 93,
+          "exact": 13,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 93,
+              "exact": 13
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 4,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HHH-HHH-LHL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 5,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 3,
+            "So2": 6,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-MHH-HHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 93,
+          "exact": 13,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 93,
+              "exact": 13
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 4,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 6,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "BOSS",
+          "ATM-er",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "BOSS",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          90,
+          93
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "mrbeast": {
+      "label": "MrBeast",
+      "source": "alchaincyf/mrbeast-skill",
+      "ambiguous_questions": {
+        "q6": 3,
+        "q11": 2,
+        "q16": 2,
+        "q27": 3,
+        "q29": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 2,
+        "q7": 2,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 3,
+        "q14": 3,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 3,
+        "q26": 3,
+        "q27": 2,
+        "q28": 2,
+        "q29": 2,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHH-HLH-HHH-HMH",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 77,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 77,
+              "exact": 8
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 5,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 4,
+            "So3": 5
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "H"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HLH-HHH-HHM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 5,
+            "E2": 6,
+            "E3": 5,
+            "A1": 6,
+            "A2": 3,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 5,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "H",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HLH-HHH-HMM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 80,
+              "exact": 9
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 77,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 5,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 3,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 4,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "M"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "CTRL",
+          "CTRL",
+          "CTRL"
+        ],
+        "unique_final_codes": [
+          "CTRL"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          77,
+          83
+        ],
+        "similarity_swing": 6
+      }
+    },
+    "robpike": {
+      "label": "Rob Pike",
+      "source": "smallnest/rob-pike-skill",
+      "ambiguous_questions": {
+        "q5": 2,
+        "q14": 3,
+        "q20": 3,
+        "q24": 3,
+        "q28": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 1,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 2,
+        "q14": 2,
+        "q15": 3,
+        "q16": 3,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 1,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 2,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-HHH-MHH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 83,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 4,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HHH-HHH-LHL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 5,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 6,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-MHH-HHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 93,
+          "exact": 13,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 93,
+              "exact": 13
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 4,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 6,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "BOSS",
+          "ATM-er",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "BOSS",
+          "ATM-er"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          87,
+          93
+        ],
+        "similarity_swing": 6
+      }
+    },
+    "zizek": {
+      "label": "齐泽克",
+      "source": "JikunR/zizek-skill",
+      "ambiguous_questions": {
+        "q2": 2,
+        "q13": 2,
+        "q17": 3,
+        "q22": 3,
+        "q30": 2
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 2,
+        "q6": 3,
+        "q7": 1,
+        "q8": 3,
+        "q9": 3,
+        "q10": 1,
+        "q11": 3,
+        "q12": 3,
+        "q13": 1,
+        "q14": 1,
+        "q15": 1,
+        "q16": 1,
+        "q17": 2,
+        "q18": 3,
+        "q19": 2,
+        "q20": 2,
+        "q21": 3,
+        "q22": 1,
+        "q23": 2,
+        "q24": 1,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-MMH-LLH-MML-LHM",
+          "final_code": "MONK",
+          "final_cn": "僧人",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "MONK",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "MONK",
+              "cn": "僧人",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "ZZZZ",
+              "cn": "装死者",
+              "sim": 77,
+              "exact": 10
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 77,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 4,
+            "E2": 4,
+            "E3": 6,
+            "A1": 2,
+            "A2": 2,
+            "A3": 5,
+            "Ac1": 4,
+            "Ac2": 4,
+            "Ac3": 3,
+            "So1": 2,
+            "So2": 5,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "M",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "M",
+            "Ac3": "L",
+            "So1": "L",
+            "So2": "H",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-MMH-LLH-MHL-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "OH-NO",
+              "cn": "哦不人",
+              "sim": 77,
+              "exact": 10
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 77,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 5,
+            "E1": 4,
+            "E2": 4,
+            "E3": 6,
+            "A1": 3,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 3,
+            "So1": 2,
+            "So2": 5,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "M",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "L",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-MMH-LLH-MML-LHL",
+          "final_code": "MONK",
+          "final_cn": "僧人",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "MONK",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "MONK",
+              "cn": "僧人",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "OH-NO",
+              "cn": "哦不人",
+              "sim": 73,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 5,
+            "E1": 4,
+            "E2": 4,
+            "E3": 6,
+            "A1": 2,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 4,
+            "Ac3": 3,
+            "So1": 2,
+            "So2": 5,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "M",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "M",
+            "Ac3": "L",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "MONK",
+          "BOSS",
+          "MONK"
+        ],
+        "unique_final_codes": [
+          "MONK",
+          "BOSS"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          80,
+          83
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "dingyuanying": {
+      "label": "丁元英",
+      "source": "liangfeiiiii/ding-yuanying-skill",
+      "ambiguous_questions": {
+        "q5": 2,
+        "q10": 3,
+        "q13": 3,
+        "q16": 1,
+        "q20": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 1,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 1,
+        "q11": 3,
+        "q12": 3,
+        "q13": 2,
+        "q14": 2,
+        "q15": 3,
+        "q16": 2,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 1,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-HMH-MHH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 4,
+            "E3": 6,
+            "A1": 4,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "M",
+            "E3": "H",
+            "A1": "M",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HMH-HHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 93,
+          "exact": 13,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 93,
+              "exact": 13
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 5,
+            "A2": 4,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "M",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HMH-HHH-HHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 93,
+          "exact": 13,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 93,
+              "exact": 13
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 4,
+            "E3": 6,
+            "A1": 5,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "M",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "BOSS",
+          "BOSS",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "BOSS"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          90,
+          93
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "luoxiang": {
+      "label": "罗翔",
+      "source": "YixiaJack/luo-xiang-skill",
+      "ambiguous_questions": {
+        "q2": 3,
+        "q5": 3,
+        "q25": 3,
+        "q29": 1,
+        "q30": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 2,
+        "q3": 3,
+        "q4": 3,
+        "q5": 2,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 2,
+        "q12": 2,
+        "q13": 3,
+        "q14": 3,
+        "q15": 3,
+        "q16": 3,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 3,
+        "q25": 2,
+        "q26": 2,
+        "q27": 2,
+        "q28": 2,
+        "q29": 2,
+        "q30": 2,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-HHM-HHH-HHH-MMM",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 4,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 4,
+            "So2": 4,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "M",
+            "So2": "M",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHM-HHH-HHH-HMM",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 77,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 6,
+            "E2": 6,
+            "E3": 4,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 5,
+            "So2": 4,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-HHM-HHH-HHH-HMH",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 9
+            },
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 77,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 4,
+            "A1": 6,
+            "A2": 6,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 5,
+            "So2": 4,
+            "So3": 5
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "H"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "ATM-er",
+          "ATM-er",
+          "ATM-er"
+        ],
+        "unique_final_codes": [
+          "ATM-er"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          83,
+          90
+        ],
+        "similarity_swing": 7
+      }
+    },
+    "pg": {
+      "label": "Paul Graham",
+      "source": "alchaincyf/paul-graham-skill",
+      "ambiguous_questions": {
+        "q5": 2,
+        "q15": 3,
+        "q17": 3,
+        "q24": 3,
+        "q30": 2
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 2,
+        "q3": 3,
+        "q4": 3,
+        "q5": 1,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 3,
+        "q14": 3,
+        "q15": 1,
+        "q16": 1,
+        "q17": 2,
+        "q18": 3,
+        "q19": 3,
+        "q20": 1,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 2,
+        "q25": 1,
+        "q26": 1,
+        "q27": 3,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-HHH-HLH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 83,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 2,
+            "A3": 5,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 5,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HMH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 90,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 90,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 4,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 2,
+            "So2": 5,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "M",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HLH-MHH-LHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 87,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "THIN-K",
+              "cn": "思考者",
+              "sim": 77,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 4,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 2,
+            "So2": 5,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "M",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "L",
+            "So2": "H",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "BOSS",
+          "BOSS",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "BOSS"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          83,
+          90
+        ],
+        "similarity_swing": 7
+      }
+    },
+    "maoxuan": {
+      "label": "毛泽东",
+      "source": "leezythu/maoxuan-skill",
+      "ambiguous_questions": {
+        "q6": 3,
+        "q10": 3,
+        "q16": 2,
+        "q22": 1,
+        "q24": 3
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 3,
+        "q6": 2,
+        "q7": 1,
+        "q8": 3,
+        "q9": 3,
+        "q10": 2,
+        "q11": 3,
+        "q12": 3,
+        "q13": 1,
+        "q14": 1,
+        "q15": 1,
+        "q16": 1,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 2,
+        "q25": 3,
+        "q26": 3,
+        "q27": 1,
+        "q28": 1,
+        "q29": 1,
+        "q30": 3,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHH-MHH-LLH-HHH-HLM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 73,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 4,
+            "E2": 5,
+            "E3": 6,
+            "A1": 2,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-MHH-LLH-HMH-HLM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 70,
+          "exact": 8,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 70,
+              "exact": 8
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 70,
+              "exact": 7
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 67,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 6,
+            "E3": 6,
+            "A1": 2,
+            "A2": 3,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 4,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "M",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        },
+        {
+          "pattern": "HHH-MHH-LLH-HHH-HLM",
+          "final_code": "CTRL",
+          "final_cn": "拿捏者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "CTRL",
+          "best_similarity": 73,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 6,
+            "E1": 4,
+            "E2": 5,
+            "E3": 6,
+            "A1": 2,
+            "A2": 3,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 6,
+            "So1": 6,
+            "So2": 2,
+            "So3": 4
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "M",
+            "E2": "H",
+            "E3": "H",
+            "A1": "L",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "M"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "CTRL",
+          "CTRL",
+          "CTRL"
+        ],
+        "unique_final_codes": [
+          "CTRL"
+        ],
+        "code_stable": true,
+        "similarity_range": [
+          70,
+          73
+        ],
+        "similarity_swing": 3
+      }
+    },
+    "karpathy": {
+      "label": "Karpathy",
+      "source": "alchaincyf/karpathy-skill",
+      "ambiguous_questions": {
+        "q5": 2,
+        "q14": 2,
+        "q16": 1,
+        "q27": 3,
+        "q30": 2
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 2,
+        "q3": 3,
+        "q4": 3,
+        "q5": 1,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 3,
+        "q12": 3,
+        "q13": 3,
+        "q14": 3,
+        "q15": 3,
+        "q16": 2,
+        "q17": 3,
+        "q18": 3,
+        "q19": 3,
+        "q20": 3,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 2,
+        "q25": 3,
+        "q26": 3,
+        "q27": 2,
+        "q28": 2,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-HHH-HHH-HHH-HML",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 83,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 9
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 5,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 4,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "H",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HMH-HHH-HHL",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 87,
+          "exact": 12,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 87,
+              "exact": 12
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 87,
+              "exact": 11
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 83,
+              "exact": 10
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 5,
+            "A2": 4,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 5,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "M",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "H",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHH-HMH-HHH-HML",
+          "final_code": "BOSS",
+          "final_cn": "领导者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "BOSS",
+          "best_similarity": 83,
+          "exact": 11,
+          "top3": [
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 83,
+              "exact": 11
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 83,
+              "exact": 10
+            },
+            {
+              "code": "CTRL",
+              "cn": "拿捏者",
+              "sim": 80,
+              "exact": 9
+            }
+          ],
+          "raw_scores": {
+            "S1": 5,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 6,
+            "A1": 6,
+            "A2": 4,
+            "A3": 6,
+            "Ac1": 6,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 4,
+            "So3": 3
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "H",
+            "A1": "H",
+            "A2": "M",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "M",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "ATM-er",
+          "BOSS",
+          "BOSS"
+        ],
+        "unique_final_codes": [
+          "ATM-er",
+          "BOSS"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          83,
+          87
+        ],
+        "similarity_swing": 4
+      }
+    },
+    "feynman": {
+      "label": "费曼",
+      "source": "alchaincyf/feynman-skill",
+      "ambiguous_questions": {
+        "q5": 2,
+        "q11": 2,
+        "q17": 3,
+        "q22": 2,
+        "q24": 1
+      },
+      "primary_answers": {
+        "q1": 3,
+        "q2": 3,
+        "q3": 3,
+        "q4": 3,
+        "q5": 1,
+        "q6": 3,
+        "q7": 3,
+        "q8": 3,
+        "q9": 3,
+        "q10": 3,
+        "q11": 1,
+        "q12": 2,
+        "q13": 3,
+        "q14": 3,
+        "q15": 1,
+        "q16": 1,
+        "q17": 2,
+        "q18": 3,
+        "q19": 3,
+        "q20": 2,
+        "q21": 3,
+        "q22": 3,
+        "q23": 3,
+        "q24": 2,
+        "q25": 3,
+        "q26": 3,
+        "q27": 1,
+        "q28": 1,
+        "q29": 1,
+        "q30": 1,
+        "drink_gate_q1": 1,
+        "drink_gate_q2": 1
+      },
+      "runs": [
+        {
+          "pattern": "HHM-HHL-HLH-HHH-HLL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 73,
+          "exact": 9,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 73,
+              "exact": 8
+            },
+            {
+              "code": "GOGO",
+              "cn": "行者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 4,
+            "E1": 6,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 2,
+            "A3": 5,
+            "Ac1": 5,
+            "Ac2": 6,
+            "Ac3": 5,
+            "So1": 6,
+            "So2": 2,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "M",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "H",
+            "So1": "H",
+            "So2": "L",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHM-HLH-HHM-HLL",
+          "final_code": "ATM-er",
+          "final_cn": "送钱者",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "ATM-er",
+          "best_similarity": 77,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 77,
+              "exact": 10
+            },
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 77,
+              "exact": 9
+            },
+            {
+              "code": "BOSS",
+              "cn": "领导者",
+              "sim": 70,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 4,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 5,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 2,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "M",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "L",
+            "So3": "L"
+          }
+        },
+        {
+          "pattern": "HHH-HHL-HLH-HHM-HLL",
+          "final_code": "SEXY",
+          "final_cn": "尤物",
+          "special": false,
+          "drunk": false,
+          "best_normal_code": "SEXY",
+          "best_similarity": 80,
+          "exact": 10,
+          "top3": [
+            {
+              "code": "SEXY",
+              "cn": "尤物",
+              "sim": 80,
+              "exact": 10
+            },
+            {
+              "code": "ATM-er",
+              "cn": "送钱者",
+              "sim": 73,
+              "exact": 9
+            },
+            {
+              "code": "MUM",
+              "cn": "妈妈",
+              "sim": 73,
+              "exact": 8
+            }
+          ],
+          "raw_scores": {
+            "S1": 6,
+            "S2": 6,
+            "S3": 5,
+            "E1": 6,
+            "E2": 6,
+            "E3": 3,
+            "A1": 6,
+            "A2": 2,
+            "A3": 6,
+            "Ac1": 5,
+            "Ac2": 6,
+            "Ac3": 4,
+            "So1": 6,
+            "So2": 2,
+            "So3": 2
+          },
+          "levels": {
+            "S1": "H",
+            "S2": "H",
+            "S3": "H",
+            "E1": "H",
+            "E2": "H",
+            "E3": "L",
+            "A1": "H",
+            "A2": "L",
+            "A3": "H",
+            "Ac1": "H",
+            "Ac2": "H",
+            "Ac3": "M",
+            "So1": "H",
+            "So2": "L",
+            "So3": "L"
+          }
+        }
+      ],
+      "stability": {
+        "variants_count": 3,
+        "final_codes_across_variants": [
+          "ATM-er",
+          "ATM-er",
+          "SEXY"
+        ],
+        "unique_final_codes": [
+          "ATM-er",
+          "SEXY"
+        ],
+        "code_stable": false,
+        "similarity_range": [
+          73,
+          80
+        ],
+        "similarity_swing": 7
+      }
+    }
+  },
+  "order": [
+    "fengge",
+    "huchenfeng",
+    "zhangxuefeng",
+    "guodegang",
+    "musk",
+    "munger",
+    "trump",
+    "jobs",
+    "naval",
+    "taleb",
+    "buffett",
+    "zhangyiming",
+    "tongjincheng",
+    "anuo",
+    "ilya",
+    "marx",
+    "mises",
+    "mrbeast",
+    "robpike",
+    "zizek",
+    "dingyuanying",
+    "luoxiang",
+    "pg",
+    "maoxuan",
+    "karpathy",
+    "feynman"
+  ]
+}

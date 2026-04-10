@@ -1,0 +1,39 @@
+# --- 26 个克隆的 skill 仓库（都是别人的独立仓库，用 install_skills.sh 重建）---
+awesome-persona-distill-skills/
+buffett-perspective/
+changshu-anuo/
+ding-yuanying-skill/
+elon-musk-skill/
+fengge-wangmingtianya-perspective/
+feynman-skill/
+guodegang-skills/
+hu-chenfeng-skill/
+ilya-sutskever-skill/
+karlmarx-skill/
+karpathy-skill/
+luo-xiang-skill/
+maoxuan-skill/
+mises-perspective/
+mrbeast-skill/
+munger-skill/
+naval-skill/
+paul-graham-skill/
+rob-pike-skill/
+steve-jobs-skill/
+taleb-skill/
+tong-jincheng-skill/
+trump-skill/
+zhang-yiming-skill/
+zhangxuefeng-skill/
+zizek-skill/
+
+# --- 安装到 .claude/skills/ 的 symlinks（指向上面的 clone，install_skills.sh 重建）---
+.claude/
+
+# --- 运行时产物 ---
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- 用户的临时圆桌问答记录（保留示例那两份）---
+# results/panels/  ← 注释掉，让示例 panel 跟着仓库走
