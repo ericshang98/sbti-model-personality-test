@@ -1,4 +1,4 @@
-# SBTI × LLM — 给 17 个大模型做一次"傻大个人格测试"
+# SBTI × LLM × Persona Skills — 让 17 个大模型 + 26 个人格 Skill 同台做一次玩梗版人格测试
 
 > What happens if you make GPT-5, Claude, Gemini, Grok, DeepSeek, Qwen, GLM, Kimi, Llama and Mistral take a Chinese viral meme personality test?
 >
